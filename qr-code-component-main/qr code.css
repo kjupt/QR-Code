@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card_img {
+    max-width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    background: var(--light-gray);
+    min-height: 100vh;
+    display: grid;
+    grid: 1fr min-content/1fr;
+    row-gap: 7.5rem;
+    place-items: center;
+    padding: 8.5rem 2.8rem;
+}
+
+.card {
+    width: 100%;
+    max-width: 32rem;
+    height: auto;
+    padding: 1.6rem 1.6rem 4rem;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2.4rem;
+}
+
+.card_img {
+    border-radius: 0.625rem;
+    width: 100%;
+}
+
+.message {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--dark-blue);
+    text-align: center;
+    padding-inline: 1.6rem;
+}
+
+.message h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.message p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.019rem;
+    line-height: 1.8rem;
+    color: var (--grayish-blue);
+    ;
+}
+
+.attribution {
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    padding-top: 12rem;
+}
