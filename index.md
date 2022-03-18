@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/kjupt/QR-Code/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Skip to content
+Pulls
+Issues
+Marketplace
+Explore
+@kjupt
+kjupt /
+QR-Code
+Public
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
 
-### Markdown
+More
+QR-Code/qr-code-component-main/index.html
+@kjupt
+kjupt Add files via upload
+Latest commit 455a20b 21 hours ago
+History
+1 contributor
+25 lines (22 sloc) 1008 Bytes
+<!DOCTYPE html>
+<htm; lang="en">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="./qr code.css">
+        <title>Frontend Mentor | QR code component</title>
+    </head>
 
-```markdown
-Syntax highlighted code block
+    <div class="container">
+        <div class="card">
+            <img src="./images/image-qr-code.png" alt="qr code" class="card_img">
+            <div class="message ">
+                <h2> Improve your front-end skills by building projects</h2>
+                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </div>
+        </div>
+        <div class=" attribution ">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a href="# ">Your Name Here</a>.
+        </div>
+        </body>
 
-# Header 1
-## Header 2
-### Header 3
+        </html>
 
-- Bulleted
-- List
+    © 2022 GitHub, Inc.
 
-1. Numbered
-2. List
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kjupt/QR-Code/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Loading complete
